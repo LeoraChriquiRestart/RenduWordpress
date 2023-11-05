@@ -1,0 +1,69 @@
+/* Header du revetement */
+
+.single-revetements .page-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 150px;
+
+    border-top: solid 2px white;
+    background-color: rgb(41, 58, 81);
+    color: white;
+
+}
+
+.single-revetements .page-header h1 {
+    font-size: 38px;
+}
+
+/* Wrapper du revetement */
+
+.revetement-wrapper {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.revetement-card {
+    display: flex;
+    align-items: center;
+    
+    width: 75%;
+    border: 2px solid rgb(41, 58, 81);
+}
+
+.revetement-card img {
+    width: 100%;
+    height: 500px;
+}
+
+.revetement-card__content {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    background-color: rgb(41, 58, 81);
+    color: white;
+    font-size: 24px;
+    
+    text-align: justify;
+    padding: 20px;
+}
+
+.revetement-card__content section {
+    padding-top: 8px;
+}
+
+.revetement-card__content section h2 {
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+
+.revetement-card__content section p {
+    line-height: 2;
+}

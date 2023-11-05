@@ -1,0 +1,54 @@
+/* Header du bois */
+
+.single-bois .page-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 150px;
+
+    border-top: solid 2px white;
+    background-color: rgb(87, 123, 170  );
+    color: white;
+
+}
+
+.single-bois .page-header h1 {
+    font-size: 38px;
+}
+
+/* Wrapper du bois */
+
+.bois-wrapper {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.bois-card {
+    display: flex;
+    
+    width: 75%;
+    border: 2px solid rgb(87, 123, 170);
+}
+
+.bois-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.bois-card__content {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    background-color: rgb(87, 123, 170);
+    color: white;
+    font-size: 24px;
+    
+    text-align: justify;
+    padding: 20px;
+}
